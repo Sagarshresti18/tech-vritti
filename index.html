@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Messages | Firebase</title>
+    <script src="index.js" defer type="module"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container-form">
+        <form action="" id="contactForm">
+            <div class="alert">Your message sent</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your name...." />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email....." />
+            </div>
+
+            <div class="inputBox">
+                <button type="submit"><a href="navigation.html">submit</a></button>
+            </div>
+                       <button id="google-lgn-btn" class="google-button">
+            <i class="fab fa-google"></i>   Login using Google account
+           </button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+</body>
+
+</html>
